@@ -1,5 +1,8 @@
 #!/bin/bash
 
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$ROOT"
+
 echo "Resetting db_gateway, wallet, scan, and signer databases..."
 
 
